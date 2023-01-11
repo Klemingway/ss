@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#centrala {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#essa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 30vh;
+    background-color: rgb(66, 70, 70);
+    border-radius: 5px;
+    background-image: url(../img/s1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a1 {
+    25% {
+        background-image: url(../img/s2.png);
+    }
+    50% {
+        background-image: url(../img/s3.png);
+    }
+    75% {
+        background-image: url(../img/s4.jpg);
+    }
+}
+
+#t {
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
+    animation-name: a5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a5 {
+    25% {
+        font-size: 50px;
+        font-family: arial;
+    }
+    50% {
+        font-size: 45px;
+        font-family: cursive;
+    }
+    75% {
+        font-size: 40px;
+        font-family: serif;
+    }
+}
+
+#guz {
+    display: flex;
+    justify-content: center;
+}
+
+#inp {
+    color: #f96668;
+    background-color: #262335;
+    font-size: 20px;
+    width: 10em;
+    height: 2em;
+}
